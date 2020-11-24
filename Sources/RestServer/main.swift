@@ -16,7 +16,7 @@ router.get("/"){
 }
 
 
-router.post("/ClaimService/add") {
+router.post("/ClaimService/addClaim") {
     request, response, next in
     let body = request.body
     let jObj = body?.asJSON
